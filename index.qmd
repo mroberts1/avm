@@ -14,7 +14,6 @@ listing:
   date-format: iso
   type: table
   field-links: [image, title, author, custom-field, date]
-  field-required: [image, title, author, custom-field, date]
   image-align: left
   categories: true
   sort-ui: false
