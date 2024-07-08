@@ -1,0 +1,10 @@
+---
+title: "Stargazer"
+author: "Hiatu"
+date: "2024-07-05"
+custom-field: "Hiatu"
+categories: [music video, hiatu]
+image: "stargazer.jpg"
+---
+
+{{< video https://youtu.be/UjPD2ozRyrQ >}}

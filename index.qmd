@@ -1,0 +1,52 @@
+---
+title: "desiring machine"
+subtitle: "algorithmic visual music"
+grid:
+# sidebar-width: 200px
+  body-width: 600px
+# margin-width: 200px
+# gutter-width: 2em
+# freeze computational output
+listing:
+  id: sample-listings
+  contents: posts
+  sort: "date desc"
+  date-format: iso
+  type: table
+  field-links: [image, title, author, custom-field, date]
+  field-required: [image, title, author, custom-field, date]
+  image-align: left
+  categories: true
+  sort-ui: false
+  filter-ui: false
+  fields: [image, title, author, custom-field, date]
+  field-display-names:
+    author: "music"
+    title: "title"
+    custom-field: "visuals"
+    date: "post"
+    categories: "categories"
+table-hover: true
+image-lazy-loading: true
+title-block-banner: false
+---
+
+## latest
+
+{{< video https://youtu.be/XTyeV_On_Q8 >}}
+
+***
+
+{{< video https://youtu.be/PX6_xwA-aF0 >}}
+
+***
+
+{{< video https://youtu.be/UjPD2ozRyrQ >}}
+
+***
+
+## archive
+
+::: {#sample-listings}
+:::
+

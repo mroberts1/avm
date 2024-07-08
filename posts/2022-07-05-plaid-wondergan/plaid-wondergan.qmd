@@ -1,0 +1,10 @@
+---
+title: "Wondergan"
+author: "Plaid"
+date: "2024-07-05"
+custom-field: "Emma Catnip"
+categories: [music video, emma-catnip]
+image: "plaid-wondergan.jpg"
+---
+
+{{< video https://youtu.be/5hnGn-2dVrk >}}

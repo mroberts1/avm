@@ -1,0 +1,10 @@
+---
+title: "Aleph 2"
+author: "Max Cooper"
+date: "2024-07-04"
+custom-field: "Martin Krzywinski"
+categories: [music video, martin-krzywinski]
+image: "aleph2.jpg"
+---
+
+{{< video https://youtu.be/tNYfqklRehM >}}

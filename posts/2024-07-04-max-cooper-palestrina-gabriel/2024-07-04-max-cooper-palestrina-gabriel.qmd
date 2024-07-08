@@ -1,0 +1,10 @@
+---
+title: "Palestrina Gabriel"
+author: "Max Cooper"
+date: "2024-07-04"
+custom-field: "Uisato"
+categories: [music video, uisato]
+image: "palestrina.jpg"
+---
+
+{{< video https://youtu.be/cI7RClc1qYg >}}

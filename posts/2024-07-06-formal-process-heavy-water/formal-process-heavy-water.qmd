@@ -1,0 +1,10 @@
+---
+title: "Heavy Water"
+author: "FormalProcess"
+date: "2024-07-06"
+custom-field: "FormalProcess"
+categories: [music video, generative]
+image: "heavy-water.jpg"
+---
+
+{{< video https://youtu.be/PX6_xwA-aF0 >}}

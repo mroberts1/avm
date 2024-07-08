@@ -1,0 +1,10 @@
+---
+title: "Everything"
+author: "Max Cooper"
+date: "2024-07-04"
+custom-field: "Nick Cobby"
+categories: [music video, max-cooper, nick-cobby]
+image: "everything.jpg"
+---
+
+{{< video https://youtu.be/GvwayRd9gbw >}}
