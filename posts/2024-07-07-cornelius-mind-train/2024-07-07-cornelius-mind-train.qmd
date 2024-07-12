@@ -1,10 +1,13 @@
 ---
 title: "Mind Train"
 author: "Cornelius"
-date: "2024-07-07"
 custom-field: "Keita Onishi"
-categories: [music video, cornelius, keita-onishi]
+date: "2024-07-07"
+categories: [fractal, sound-object]
 image: "mindtrain.jpg"
 ---
 
 {{< video https://youtu.be/XTyeV_On_Q8 >}}
+
+Music: [Cornelius](https://www.corneliusjapan.com/) (Keigo Oyamada)  
+Visuals: [Keita Onishi](https://www.keitaonishi.com/)

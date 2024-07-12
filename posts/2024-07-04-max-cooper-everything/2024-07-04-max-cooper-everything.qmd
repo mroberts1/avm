@@ -3,7 +3,7 @@ title: "Everything"
 author: "Max Cooper"
 date: "2024-07-04"
 custom-field: "Nick Cobby"
-categories: [music video, max-cooper, nick-cobby]
+categories: [face, collage]
 image: "everything.jpg"
 ---
 

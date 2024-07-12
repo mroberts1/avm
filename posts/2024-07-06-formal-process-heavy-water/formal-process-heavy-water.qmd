@@ -3,7 +3,7 @@ title: "Heavy Water"
 author: "FormalProcess"
 date: "2024-07-06"
 custom-field: "FormalProcess"
-categories: [music video, generative]
+categories: [kaleidoscopic, visualizer]
 image: "heavy-water.jpg"
 ---
 

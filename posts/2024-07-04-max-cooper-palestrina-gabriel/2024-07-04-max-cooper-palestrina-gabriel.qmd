@@ -3,7 +3,7 @@ title: "Palestrina Gabriel"
 author: "Max Cooper"
 date: "2024-07-04"
 custom-field: "Uisato"
-categories: [music video, uisato]
+categories: [masking, renaissance]
 image: "palestrina.jpg"
 ---
 

@@ -3,7 +3,7 @@ title: "Transcendental Tree Map"
 author: "Max Cooper"
 date: "2024-07-04"
 custom-field: "Martin Krzywinski & Nick Cobby"
-categories: [music video, max-cooper]
+categories: [complexity, recursive]
 image: "transcendental-tree-map.jpg"
 ---
 

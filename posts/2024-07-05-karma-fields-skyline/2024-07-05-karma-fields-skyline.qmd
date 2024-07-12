@@ -3,7 +3,7 @@ title: "Skyline"
 author: "Karma Fields"
 date: "2024-07-05"
 custom-field: "Raven Kwok"
-categories: [music video, raven-kwok]
+categories: [fractal, recursive]
 image: "karma-fields-skyline.jpg"
 ---
 

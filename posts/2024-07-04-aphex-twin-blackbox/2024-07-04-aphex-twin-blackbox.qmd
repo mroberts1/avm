@@ -3,7 +3,7 @@ title: "Blackbox Life Recorder 22"
 author: "Aphex Twin"
 date: "2024-07-04"
 custom-field: "Unknown"
-categories: [music video]
+categories: [architecture]
 image: "blackbox.jpg"
 ---
 

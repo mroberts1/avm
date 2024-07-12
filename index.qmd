@@ -1,5 +1,5 @@
 ---
-title: "desiring machine"
+title: "vanishing point"
 subtitle: "algorithmic visual music"
 grid:
 # sidebar-width: 200px
@@ -13,11 +13,11 @@ listing:
   sort: "date desc"
   date-format: iso
   type: table
-  field-links: [image, title, author, custom-field, date]
+  field-links: [image, title, author, custom-field]
   image-align: left
   categories: true
-  sort-ui: false
-  filter-ui: false
+  sort-ui: true
+  filter-ui: true
   fields: [image, title, author, custom-field, date]
   field-display-names:
     author: "music"
@@ -32,15 +32,7 @@ title-block-banner: false
 
 ## latest
 
-{{< video https://youtu.be/XTyeV_On_Q8 >}}
-
-***
-
-{{< video https://youtu.be/PX6_xwA-aF0 >}}
-
-***
-
-{{< video https://youtu.be/UjPD2ozRyrQ >}}
+{{< video https://youtu.be/fVga1ay2DZk >}}
 
 ***
 

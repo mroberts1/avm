@@ -3,7 +3,7 @@ title: "Stargazer"
 author: "Hiatu"
 date: "2024-07-05"
 custom-field: "Hiatu"
-categories: [music video, hiatu]
+categories: [fractal, recursive]
 image: "stargazer.jpg"
 ---
 

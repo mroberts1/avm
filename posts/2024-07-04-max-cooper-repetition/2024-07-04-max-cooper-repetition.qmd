@@ -3,7 +3,7 @@ title: "Repetition"
 author: "Max Cooper"
 date: "2024-07-04"
 custom-field: "Kevin McGlouchlin"
-categories: [music video, kevin-mcglouchlin]
+categories: [complexity, recursive]
 image: "repetition.jpg"
 ---
 
