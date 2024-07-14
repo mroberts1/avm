@@ -32,7 +32,7 @@ title-block-banner: false
 
 ## latest
 
-{{< video https://youtu.be/fVga1ay2DZk >}}
+{{< video https://youtu.be/D9LfNPQyzlY >}}
 
 ***
 
