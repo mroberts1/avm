@@ -1,6 +1,5 @@
 ---
-title: "vanishing point"
-subtitle: "algorithmic visual music"
+title: "    "
 grid:
 # sidebar-width: 200px
   body-width: 600px
@@ -30,7 +29,9 @@ image-lazy-loading: true
 title-block-banner: false
 ---
 
-## latest
+# vanishing point
+
+## algorithmic visual music
 
 {{< video https://youtu.be/D9LfNPQyzlY >}}
 
