@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>quarto-inputf3d327327de432cf – vp::avm</title>
+<title>vanishing point – vp::avm</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -80,9 +80,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-image','listing-title','listing-author','listing-custom-field','listing-date',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] },{ data: ['listing-author-sort'] }],
+      valueNames: ['listing-image','listing-title','listing-author','listing-custom-field','listing-date',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-title-sort'] },{ data: ['listing-date-sort'] },{ data: ['listing-author-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-date","listing-title","listing-author"],
+      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -174,42 +174,48 @@ window.Quarto = {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(13)</span></div><div class="category" data-category="architecture">architecture <span class="quarto-category-count">(1)</span></div><div class="category" data-category="ascii">ascii <span class="quarto-category-count">(1)</span></div><div class="category" data-category="collage">collage <span class="quarto-category-count">(1)</span></div><div class="category" data-category="complexity">complexity <span class="quarto-category-count">(2)</span></div><div class="category" data-category="face">face <span class="quarto-category-count">(1)</span></div><div class="category" data-category="fractal">fractal <span class="quarto-category-count">(4)</span></div><div class="category" data-category="kaleidoscopic">kaleidoscopic <span class="quarto-category-count">(1)</span></div><div class="category" data-category="masking">masking <span class="quarto-category-count">(1)</span></div><div class="category" data-category="menger-sponge">menger-sponge <span class="quarto-category-count">(2)</span></div><div class="category" data-category="recursive">recursive <span class="quarto-category-count">(4)</span></div><div class="category" data-category="renaissance">renaissance <span class="quarto-category-count">(2)</span></div><div class="category" data-category="sculpture">sculpture <span class="quarto-category-count">(1)</span></div><div class="category" data-category="sierpinski-carpet">sierpinski-carpet <span class="quarto-category-count">(1)</span></div><div class="category" data-category="sound-object">sound-object <span class="quarto-category-count">(1)</span></div><div class="category" data-category="text">text <span class="quarto-category-count">(1)</span></div><div class="category" data-category="visualizer">visualizer <span class="quarto-category-count">(1)</span></div></div></div>
+    
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content column-page" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">vanishing point</h1>
+<p class="subtitle lead">algorithmic visual music</p>
+</div>
 
 
 
+<div class="quarto-title-meta column-page">
 
-<section id="vanishing-point" class="level1">
-<h1>vanishing point</h1>
-<section id="algorithmic-visual-music" class="level2">
-<h2 class="anchored" data-anchor-id="algorithmic-visual-music">algorithmic visual music</h2>
-<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/D9LfNPQyzlY" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
-<hr>
-</section>
-<section id="archive" class="level2">
-<h2 class="anchored" data-anchor-id="archive">archive</h2>
-<div id="listing-sample-listings" class="quarto-listing quarto-listing-container-table">
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<div id="listing-sample-listings" class="quarto-listing quarto-listing-container-grid">
 <div class="listing-actions-group">
    <div class="input-group input-group-sm quarto-listing-sort">
      <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
      <select id="listing-sample-listings-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-sample-listings'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
        <option value="" disabled="" selected="" hidden="">Order By</option>
        <option value="index" data-direction="asc">Default</option>
+         <option value="listing-title-sort" data-direction="asc">
+          title
+        </option>
          <option value="listing-date-sort" data-direction="asc">
           post - Oldest
         </option>
          <option value="listing-date-sort" data-direction="desc">
           post - Newest
-        </option>
-         <option value="listing-title-sort" data-direction="asc">
-          title
         </option>
          <option value="listing-author-sort" data-direction="asc">
           music
@@ -221,249 +227,456 @@ window.Quarto = {
       <input type="text" class="search form-control" placeholder="Filter">
     </div>
 </div>
-<table class="quarto-listing-table table">
-<thead>
-<tr>
-<th>
-</th>
-<th>
-<a class="sort" data-sort="listing-title-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">title</a>
-</th>
-<th>
-<a class="sort" data-sort="listing-author-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">music</a>
-</th>
-<th>
+<div class="list grid quarto-listing-cols-4">
+<div class="g-col-1" data-index="0" data-categories="text" data-listing-date-sort="1721833200000" data-listing-file-modified-sort="1721918805678" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="10" data-listing-image-sort="/posts/2024-07-25-max-cooper-symphony-in-acid/symphony-in-acid.jpg" data-listing-title-sort="Symphony in Acid" data-listing-author-sort="Max Cooper" data-listing-custom-field-sort="Kwasery Komputery">
+<a href="./posts/2024-07-25-max-cooper-symphony-in-acid/2024-07-25-max-cooper-symphony-in-acid.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./posts/2024-07-25-max-cooper-symphony-in-acid/symphony-in-acid.jpg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Symphony in Acid
+</h5>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+Max Cooper
+</div>
+<div class="listing-date">
+7/25/24
+</div>
+</div>
+<table class="card-other-values">
+<tbody><tr>
+<td>
 visuals
-</th>
-<th>
-<a class="sort" data-sort="listing-date-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">post</a>
-</th>
-</tr>
-</thead>
-<tbody class="list">
-<tr data-index="0" data-categories="sierpinski-carpet,menger-sponge" data-listing-date-sort="1720882800000" data-listing-file-modified-sort="1720947070738" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="5" data-listing-image-sort="/posts/2024-07-14-susumu-sierpinski/sierpinski-carpet.jpg" data-listing-title-sort="Sierpinski Carpet / Menger Sponge" data-listing-author-sort="Susumu " data-listing-custom-field-sort="Susumu">
-<td>
-<a href="./posts/2024-07-14-susumu-sierpinski/sierpinski-carpet.html" class="image listing-image"><img loading="lazy" src="./posts/2024-07-14-susumu-sierpinski/sierpinski-carpet.jpg" style="height: 40px;"></a>
 </td>
-<td>
-<a href="./posts/2024-07-14-susumu-sierpinski/sierpinski-carpet.html" class="title listing-title">Sierpinski Carpet / Menger Sponge</a>
-</td>
-<td>
-<a href="./posts/2024-07-14-susumu-sierpinski/sierpinski-carpet.html" class="author listing-author">Susumu </a>
-</td>
-<td>
-<a href="./posts/2024-07-14-susumu-sierpinski/sierpinski-carpet.html" class="custom-field listing-custom-field">Susumu</a>
-</td>
-<td>
-<span class="listing-date">2024-07-14</span>
+<td class="custom-field">
+<a href="./posts/2024-07-25-max-cooper-symphony-in-acid/2024-07-25-max-cooper-symphony-in-acid.html" class="custom-field">Kwasery Komputery</a>
 </td>
 </tr>
-<tr data-index="1" data-categories="renaissance,sculpture" data-listing-date-sort="1720450800000" data-listing-file-modified-sort="1720504634302" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="19" data-listing-image-sort="/posts/2024-07-09-max-cooper-palestrina-sicut/palestrina-sicut.jpg" data-listing-title-sort="Palestrina Sicut | Fighters" data-listing-author-sort="Max Cooper" data-listing-custom-field-sort="Quayola">
+</tbody></table>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="1" data-categories="sierpinski-carpet,menger-sponge" data-listing-date-sort="1720882800000" data-listing-file-modified-sort="1720947070738" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="5" data-listing-image-sort="/posts/2024-07-14-susumu-sierpinski/sierpinski-carpet.jpg" data-listing-title-sort="Sierpinski Carpet / Menger Sponge" data-listing-author-sort="Susumu " data-listing-custom-field-sort="Susumu">
+<a href="./posts/2024-07-14-susumu-sierpinski/sierpinski-carpet.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./posts/2024-07-14-susumu-sierpinski/sierpinski-carpet.jpg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Sierpinski Carpet / Menger Sponge
+</h5>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+Susumu
+</div>
+<div class="listing-date">
+7/14/24
+</div>
+</div>
+<table class="card-other-values">
+<tbody><tr>
 <td>
-<a href="./posts/2024-07-09-max-cooper-palestrina-sicut/2024-07-09-max-cooper-palestrina-sicut.html" class="image listing-image"><img loading="lazy" src="./posts/2024-07-09-max-cooper-palestrina-sicut/palestrina-sicut.jpg" style="height: 40px;"></a>
+visuals
 </td>
-<td>
-<a href="./posts/2024-07-09-max-cooper-palestrina-sicut/2024-07-09-max-cooper-palestrina-sicut.html" class="title listing-title">Palestrina Sicut | Fighters</a>
-</td>
-<td>
-<a href="./posts/2024-07-09-max-cooper-palestrina-sicut/2024-07-09-max-cooper-palestrina-sicut.html" class="author listing-author">Max Cooper</a>
-</td>
-<td>
-<a href="./posts/2024-07-09-max-cooper-palestrina-sicut/2024-07-09-max-cooper-palestrina-sicut.html" class="custom-field listing-custom-field">Quayola</a>
-</td>
-<td>
-<span class="listing-date">2024-07-09</span>
-</td>
-</tr>
-<tr data-index="2" data-categories="fractal,sound-object" data-listing-date-sort="1720278000000" data-listing-file-modified-sort="1720446485779" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="11" data-listing-image-sort="/posts/2024-07-07-cornelius-mind-train/mindtrain.jpg" data-listing-title-sort="Mind Train" data-listing-author-sort="Cornelius " data-listing-custom-field-sort="Keita Onishi">
-<td>
-<a href="./posts/2024-07-07-cornelius-mind-train/2024-07-07-cornelius-mind-train.html" class="image listing-image"><img loading="lazy" src="./posts/2024-07-07-cornelius-mind-train/mindtrain.jpg" style="height: 40px;"></a>
-</td>
-<td>
-<a href="./posts/2024-07-07-cornelius-mind-train/2024-07-07-cornelius-mind-train.html" class="title listing-title">Mind Train</a>
-</td>
-<td>
-<a href="./posts/2024-07-07-cornelius-mind-train/2024-07-07-cornelius-mind-train.html" class="author listing-author">Cornelius </a>
-</td>
-<td>
-<a href="./posts/2024-07-07-cornelius-mind-train/2024-07-07-cornelius-mind-train.html" class="custom-field listing-custom-field">Keita Onishi</a>
-</td>
-<td>
-<span class="listing-date">2024-07-07</span>
+<td class="custom-field">
+<a href="./posts/2024-07-14-susumu-sierpinski/sierpinski-carpet.html" class="custom-field">Susumu</a>
 </td>
 </tr>
-<tr data-index="3" data-categories="kaleidoscopic,visualizer" data-listing-date-sort="1720191600000" data-listing-file-modified-sort="1720429800601" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="4" data-listing-image-sort="/posts/2024-07-06-formal-process-heavy-water/heavy-water.jpg" data-listing-title-sort="Heavy Water" data-listing-author-sort="FormalProcess " data-listing-custom-field-sort="FormalProcess">
+</tbody></table>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="2" data-categories="renaissance,sculpture" data-listing-date-sort="1720450800000" data-listing-file-modified-sort="1720504634302" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="19" data-listing-image-sort="/posts/2024-07-09-max-cooper-palestrina-sicut/palestrina-sicut.jpg" data-listing-title-sort="Palestrina Sicut | Fighters" data-listing-author-sort="Max Cooper" data-listing-custom-field-sort="Quayola">
+<a href="./posts/2024-07-09-max-cooper-palestrina-sicut/2024-07-09-max-cooper-palestrina-sicut.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./posts/2024-07-09-max-cooper-palestrina-sicut/palestrina-sicut.jpg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Palestrina Sicut | Fighters
+</h5>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+Max Cooper
+</div>
+<div class="listing-date">
+7/9/24
+</div>
+</div>
+<table class="card-other-values">
+<tbody><tr>
 <td>
-<a href="./posts/2024-07-06-formal-process-heavy-water/formal-process-heavy-water.html" class="image listing-image"><img loading="lazy" src="./posts/2024-07-06-formal-process-heavy-water/heavy-water.jpg" style="height: 40px;"></a>
+visuals
 </td>
-<td>
-<a href="./posts/2024-07-06-formal-process-heavy-water/formal-process-heavy-water.html" class="title listing-title">Heavy Water</a>
-</td>
-<td>
-<a href="./posts/2024-07-06-formal-process-heavy-water/formal-process-heavy-water.html" class="author listing-author">FormalProcess </a>
-</td>
-<td>
-<a href="./posts/2024-07-06-formal-process-heavy-water/formal-process-heavy-water.html" class="custom-field listing-custom-field">FormalProcess</a>
-</td>
-<td>
-<span class="listing-date">2024-07-06</span>
-</td>
-</tr>
-<tr data-index="4" data-categories="fractal,recursive" data-listing-date-sort="1720105200000" data-listing-file-modified-sort="1720429748654" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="4" data-listing-image-sort="/posts/2024-07-05-hiatu-stargazer/stargazer.jpg" data-listing-title-sort="Stargazer" data-listing-author-sort="Hiatu " data-listing-custom-field-sort="Hiatu">
-<td>
-<a href="./posts/2024-07-05-hiatu-stargazer/hiatu-stargazer.html" class="image listing-image"><img loading="lazy" src="./posts/2024-07-05-hiatu-stargazer/stargazer.jpg" style="height: 40px;"></a>
-</td>
-<td>
-<a href="./posts/2024-07-05-hiatu-stargazer/hiatu-stargazer.html" class="title listing-title">Stargazer</a>
-</td>
-<td>
-<a href="./posts/2024-07-05-hiatu-stargazer/hiatu-stargazer.html" class="author listing-author">Hiatu </a>
-</td>
-<td>
-<a href="./posts/2024-07-05-hiatu-stargazer/hiatu-stargazer.html" class="custom-field listing-custom-field">Hiatu</a>
-</td>
-<td>
-<span class="listing-date">2024-07-05</span>
+<td class="custom-field">
+<a href="./posts/2024-07-09-max-cooper-palestrina-sicut/2024-07-09-max-cooper-palestrina-sicut.html" class="custom-field">Quayola</a>
 </td>
 </tr>
-<tr data-index="5" data-categories="fractal" data-listing-date-sort="1720105200000" data-listing-file-modified-sort="1720446396353" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="11" data-listing-image-sort="/posts/2024-07-05-plaid-wondergan/wondergan.jpg" data-listing-title-sort="Wondergan" data-listing-author-sort="Plaid " data-listing-custom-field-sort="Emma Catnip">
+</tbody></table>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="3" data-categories="fractal,sound-object" data-listing-date-sort="1720278000000" data-listing-file-modified-sort="1720446485779" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="11" data-listing-image-sort="/posts/2024-07-07-cornelius-mind-train/mindtrain.jpg" data-listing-title-sort="Mind Train" data-listing-author-sort="Cornelius " data-listing-custom-field-sort="Keita Onishi">
+<a href="./posts/2024-07-07-cornelius-mind-train/2024-07-07-cornelius-mind-train.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./posts/2024-07-07-cornelius-mind-train/mindtrain.jpg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Mind Train
+</h5>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+Cornelius
+</div>
+<div class="listing-date">
+7/7/24
+</div>
+</div>
+<table class="card-other-values">
+<tbody><tr>
 <td>
-<a href="./posts/2024-07-05-plaid-wondergan/plaid-wondergan.html" class="image listing-image"><img loading="lazy" src="./posts/2024-07-05-plaid-wondergan/wondergan.jpg" style="height: 40px;"></a>
+visuals
 </td>
-<td>
-<a href="./posts/2024-07-05-plaid-wondergan/plaid-wondergan.html" class="title listing-title">Wondergan</a>
-</td>
-<td>
-<a href="./posts/2024-07-05-plaid-wondergan/plaid-wondergan.html" class="author listing-author">Plaid </a>
-</td>
-<td>
-<a href="./posts/2024-07-05-plaid-wondergan/plaid-wondergan.html" class="custom-field listing-custom-field">Emma Catnip</a>
-</td>
-<td>
-<span class="listing-date">2024-07-05</span>
-</td>
-</tr>
-<tr data-index="6" data-categories="fractal,recursive" data-listing-date-sort="1720105200000" data-listing-file-modified-sort="1720429771758" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="4" data-listing-image-sort="/posts/2024-07-05-karma-fields-skyline/karma-fields-skyline.jpg" data-listing-title-sort="Skyline" data-listing-author-sort="Karma Fields" data-listing-custom-field-sort="Raven Kwok">
-<td>
-<a href="./posts/2024-07-05-karma-fields-skyline/2024-07-05-karma-fields-skyline.html" class="image listing-image"><img loading="lazy" src="./posts/2024-07-05-karma-fields-skyline/karma-fields-skyline.jpg" style="height: 40px;"></a>
-</td>
-<td>
-<a href="./posts/2024-07-05-karma-fields-skyline/2024-07-05-karma-fields-skyline.html" class="title listing-title">Skyline</a>
-</td>
-<td>
-<a href="./posts/2024-07-05-karma-fields-skyline/2024-07-05-karma-fields-skyline.html" class="author listing-author">Karma Fields</a>
-</td>
-<td>
-<a href="./posts/2024-07-05-karma-fields-skyline/2024-07-05-karma-fields-skyline.html" class="custom-field listing-custom-field">Raven Kwok</a>
-</td>
-<td>
-<span class="listing-date">2024-07-05</span>
+<td class="custom-field">
+<a href="./posts/2024-07-07-cornelius-mind-train/2024-07-07-cornelius-mind-train.html" class="custom-field">Keita Onishi</a>
 </td>
 </tr>
-<tr data-index="7" data-categories="text,ascii" data-listing-date-sort="1720018800000" data-listing-file-modified-sort="1720429565484" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="4" data-listing-image-sort="/posts/2024-07-04-max-cooper-aleph2/aleph2.jpg" data-listing-title-sort="Aleph 2" data-listing-author-sort="Max Cooper" data-listing-custom-field-sort="Martin Krzywinski">
+</tbody></table>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="4" data-categories="kaleidoscopic,visualizer" data-listing-date-sort="1720191600000" data-listing-file-modified-sort="1720429800601" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="4" data-listing-image-sort="/posts/2024-07-06-formal-process-heavy-water/heavy-water.jpg" data-listing-title-sort="Heavy Water" data-listing-author-sort="FormalProcess " data-listing-custom-field-sort="FormalProcess">
+<a href="./posts/2024-07-06-formal-process-heavy-water/formal-process-heavy-water.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./posts/2024-07-06-formal-process-heavy-water/heavy-water.jpg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Heavy Water
+</h5>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+FormalProcess
+</div>
+<div class="listing-date">
+7/6/24
+</div>
+</div>
+<table class="card-other-values">
+<tbody><tr>
 <td>
-<a href="./posts/2024-07-04-max-cooper-aleph2/2024-07-04-max-cooper-aleph2.html" class="image listing-image"><img loading="lazy" src="./posts/2024-07-04-max-cooper-aleph2/aleph2.jpg" style="height: 40px;"></a>
+visuals
 </td>
-<td>
-<a href="./posts/2024-07-04-max-cooper-aleph2/2024-07-04-max-cooper-aleph2.html" class="title listing-title">Aleph 2</a>
-</td>
-<td>
-<a href="./posts/2024-07-04-max-cooper-aleph2/2024-07-04-max-cooper-aleph2.html" class="author listing-author">Max Cooper</a>
-</td>
-<td>
-<a href="./posts/2024-07-04-max-cooper-aleph2/2024-07-04-max-cooper-aleph2.html" class="custom-field listing-custom-field">Martin Krzywinski</a>
-</td>
-<td>
-<span class="listing-date">2024-07-04</span>
-</td>
-</tr>
-<tr data-index="8" data-categories="face,collage" data-listing-date-sort="1720018800000" data-listing-file-modified-sort="1720429591650" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="4" data-listing-image-sort="/posts/2024-07-04-max-cooper-everything/everything.jpg" data-listing-title-sort="Everything" data-listing-author-sort="Max Cooper" data-listing-custom-field-sort="Nick Cobby">
-<td>
-<a href="./posts/2024-07-04-max-cooper-everything/2024-07-04-max-cooper-everything.html" class="image listing-image"><img loading="lazy" src="./posts/2024-07-04-max-cooper-everything/everything.jpg" style="height: 40px;"></a>
-</td>
-<td>
-<a href="./posts/2024-07-04-max-cooper-everything/2024-07-04-max-cooper-everything.html" class="title listing-title">Everything</a>
-</td>
-<td>
-<a href="./posts/2024-07-04-max-cooper-everything/2024-07-04-max-cooper-everything.html" class="author listing-author">Max Cooper</a>
-</td>
-<td>
-<a href="./posts/2024-07-04-max-cooper-everything/2024-07-04-max-cooper-everything.html" class="custom-field listing-custom-field">Nick Cobby</a>
-</td>
-<td>
-<span class="listing-date">2024-07-04</span>
+<td class="custom-field">
+<a href="./posts/2024-07-06-formal-process-heavy-water/formal-process-heavy-water.html" class="custom-field">FormalProcess</a>
 </td>
 </tr>
-<tr data-index="9" data-categories="complexity,recursive" data-listing-date-sort="1720018800000" data-listing-file-modified-sort="1720429725129" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="4" data-listing-image-sort="/posts/2024-07-04-max-cooper-transcendental/transcendental-tree-map.jpg" data-listing-title-sort="Transcendental Tree Map" data-listing-author-sort="Max Cooper" data-listing-custom-field-sort="Martin Krzywinski &amp; Nick Cobby">
+</tbody></table>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="5" data-categories="fractal,recursive" data-listing-date-sort="1720105200000" data-listing-file-modified-sort="1720429748654" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="4" data-listing-image-sort="/posts/2024-07-05-hiatu-stargazer/stargazer.jpg" data-listing-title-sort="Stargazer" data-listing-author-sort="Hiatu " data-listing-custom-field-sort="Hiatu">
+<a href="./posts/2024-07-05-hiatu-stargazer/hiatu-stargazer.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./posts/2024-07-05-hiatu-stargazer/stargazer.jpg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Stargazer
+</h5>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+Hiatu
+</div>
+<div class="listing-date">
+7/5/24
+</div>
+</div>
+<table class="card-other-values">
+<tbody><tr>
 <td>
-<a href="./posts/2024-07-04-max-cooper-transcendental/2024-07-04-max-cooper-transcendental.html" class="image listing-image"><img loading="lazy" src="./posts/2024-07-04-max-cooper-transcendental/transcendental-tree-map.jpg" style="height: 40px;"></a>
+visuals
 </td>
-<td>
-<a href="./posts/2024-07-04-max-cooper-transcendental/2024-07-04-max-cooper-transcendental.html" class="title listing-title">Transcendental Tree Map</a>
-</td>
-<td>
-<a href="./posts/2024-07-04-max-cooper-transcendental/2024-07-04-max-cooper-transcendental.html" class="author listing-author">Max Cooper</a>
-</td>
-<td>
-<a href="./posts/2024-07-04-max-cooper-transcendental/2024-07-04-max-cooper-transcendental.html" class="custom-field listing-custom-field">Martin Krzywinski &amp; Nick Cobby</a>
-</td>
-<td>
-<span class="listing-date">2024-07-04</span>
-</td>
-</tr>
-<tr data-index="10" data-categories="complexity,recursive" data-listing-date-sort="1720018800000" data-listing-file-modified-sort="1720429707513" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="4" data-listing-image-sort="/posts/2024-07-04-max-cooper-repetition/repetition.jpg" data-listing-title-sort="Repetition" data-listing-author-sort="Max Cooper" data-listing-custom-field-sort="Kevin McGlouchlin">
-<td>
-<a href="./posts/2024-07-04-max-cooper-repetition/2024-07-04-max-cooper-repetition.html" class="image listing-image"><img loading="lazy" src="./posts/2024-07-04-max-cooper-repetition/repetition.jpg" style="height: 40px;"></a>
-</td>
-<td>
-<a href="./posts/2024-07-04-max-cooper-repetition/2024-07-04-max-cooper-repetition.html" class="title listing-title">Repetition</a>
-</td>
-<td>
-<a href="./posts/2024-07-04-max-cooper-repetition/2024-07-04-max-cooper-repetition.html" class="author listing-author">Max Cooper</a>
-</td>
-<td>
-<a href="./posts/2024-07-04-max-cooper-repetition/2024-07-04-max-cooper-repetition.html" class="custom-field listing-custom-field">Kevin McGlouchlin</a>
-</td>
-<td>
-<span class="listing-date">2024-07-04</span>
+<td class="custom-field">
+<a href="./posts/2024-07-05-hiatu-stargazer/hiatu-stargazer.html" class="custom-field">Hiatu</a>
 </td>
 </tr>
-<tr data-index="11" data-categories="masking,renaissance" data-listing-date-sort="1720018800000" data-listing-file-modified-sort="1720431031126" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="4" data-listing-image-sort="/posts/2024-07-04-max-cooper-palestrina-gabriel/palestrina.jpg" data-listing-title-sort="Palestrina Gabriel" data-listing-author-sort="Max Cooper" data-listing-custom-field-sort="Uisato">
+</tbody></table>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="6" data-categories="fractal" data-listing-date-sort="1720105200000" data-listing-file-modified-sort="1720446396353" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="11" data-listing-image-sort="/posts/2024-07-05-plaid-wondergan/wondergan.jpg" data-listing-title-sort="Wondergan" data-listing-author-sort="Plaid " data-listing-custom-field-sort="Emma Catnip">
+<a href="./posts/2024-07-05-plaid-wondergan/plaid-wondergan.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./posts/2024-07-05-plaid-wondergan/wondergan.jpg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Wondergan
+</h5>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+Plaid
+</div>
+<div class="listing-date">
+7/5/24
+</div>
+</div>
+<table class="card-other-values">
+<tbody><tr>
 <td>
-<a href="./posts/2024-07-04-max-cooper-palestrina-gabriel/2024-07-04-max-cooper-palestrina-gabriel.html" class="image listing-image"><img loading="lazy" src="./posts/2024-07-04-max-cooper-palestrina-gabriel/palestrina.jpg" style="height: 40px;"></a>
+visuals
 </td>
-<td>
-<a href="./posts/2024-07-04-max-cooper-palestrina-gabriel/2024-07-04-max-cooper-palestrina-gabriel.html" class="title listing-title">Palestrina Gabriel</a>
-</td>
-<td>
-<a href="./posts/2024-07-04-max-cooper-palestrina-gabriel/2024-07-04-max-cooper-palestrina-gabriel.html" class="author listing-author">Max Cooper</a>
-</td>
-<td>
-<a href="./posts/2024-07-04-max-cooper-palestrina-gabriel/2024-07-04-max-cooper-palestrina-gabriel.html" class="custom-field listing-custom-field">Uisato</a>
-</td>
-<td>
-<span class="listing-date">2024-07-04</span>
-</td>
-</tr>
-<tr data-index="12" data-categories="architecture,menger-sponge" data-listing-date-sort="1720018800000" data-listing-file-modified-sort="1720761609116" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="4" data-listing-image-sort="/posts/2024-07-04-aphex-twin-blackbox/blackbox.jpg" data-listing-title-sort="Blackbox Life Recorder 22" data-listing-author-sort="Aphex Twin" data-listing-custom-field-sort="Unknown">
-<td>
-<a href="./posts/2024-07-04-aphex-twin-blackbox/2024-07-04-aphex-twin-blackbox.html" class="image listing-image"><img loading="lazy" src="./posts/2024-07-04-aphex-twin-blackbox/blackbox.jpg" style="height: 40px;"></a>
-</td>
-<td>
-<a href="./posts/2024-07-04-aphex-twin-blackbox/2024-07-04-aphex-twin-blackbox.html" class="title listing-title">Blackbox Life Recorder 22</a>
-</td>
-<td>
-<a href="./posts/2024-07-04-aphex-twin-blackbox/2024-07-04-aphex-twin-blackbox.html" class="author listing-author">Aphex Twin</a>
-</td>
-<td>
-<a href="./posts/2024-07-04-aphex-twin-blackbox/2024-07-04-aphex-twin-blackbox.html" class="custom-field listing-custom-field">Unknown</a>
-</td>
-<td>
-<span class="listing-date">2024-07-04</span>
+<td class="custom-field">
+<a href="./posts/2024-07-05-plaid-wondergan/plaid-wondergan.html" class="custom-field">Emma Catnip</a>
 </td>
 </tr>
-</tbody>
-</table>
+</tbody></table>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="7" data-categories="fractal,recursive" data-listing-date-sort="1720105200000" data-listing-file-modified-sort="1720429771758" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="4" data-listing-image-sort="/posts/2024-07-05-karma-fields-skyline/karma-fields-skyline.jpg" data-listing-title-sort="Skyline" data-listing-author-sort="Karma Fields" data-listing-custom-field-sort="Raven Kwok">
+<a href="./posts/2024-07-05-karma-fields-skyline/2024-07-05-karma-fields-skyline.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./posts/2024-07-05-karma-fields-skyline/karma-fields-skyline.jpg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Skyline
+</h5>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+Karma Fields
+</div>
+<div class="listing-date">
+7/5/24
+</div>
+</div>
+<table class="card-other-values">
+<tbody><tr>
+<td>
+visuals
+</td>
+<td class="custom-field">
+<a href="./posts/2024-07-05-karma-fields-skyline/2024-07-05-karma-fields-skyline.html" class="custom-field">Raven Kwok</a>
+</td>
+</tr>
+</tbody></table>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="8" data-categories="text,ascii" data-listing-date-sort="1720018800000" data-listing-file-modified-sort="1720429565484" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="4" data-listing-image-sort="/posts/2024-07-04-max-cooper-aleph2/aleph2.jpg" data-listing-title-sort="Aleph 2" data-listing-author-sort="Max Cooper" data-listing-custom-field-sort="Martin Krzywinski">
+<a href="./posts/2024-07-04-max-cooper-aleph2/2024-07-04-max-cooper-aleph2.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./posts/2024-07-04-max-cooper-aleph2/aleph2.jpg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Aleph 2
+</h5>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+Max Cooper
+</div>
+<div class="listing-date">
+7/4/24
+</div>
+</div>
+<table class="card-other-values">
+<tbody><tr>
+<td>
+visuals
+</td>
+<td class="custom-field">
+<a href="./posts/2024-07-04-max-cooper-aleph2/2024-07-04-max-cooper-aleph2.html" class="custom-field">Martin Krzywinski</a>
+</td>
+</tr>
+</tbody></table>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="9" data-categories="face,collage" data-listing-date-sort="1720018800000" data-listing-file-modified-sort="1720429591650" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="4" data-listing-image-sort="/posts/2024-07-04-max-cooper-everything/everything.jpg" data-listing-title-sort="Everything" data-listing-author-sort="Max Cooper" data-listing-custom-field-sort="Nick Cobby">
+<a href="./posts/2024-07-04-max-cooper-everything/2024-07-04-max-cooper-everything.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./posts/2024-07-04-max-cooper-everything/everything.jpg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Everything
+</h5>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+Max Cooper
+</div>
+<div class="listing-date">
+7/4/24
+</div>
+</div>
+<table class="card-other-values">
+<tbody><tr>
+<td>
+visuals
+</td>
+<td class="custom-field">
+<a href="./posts/2024-07-04-max-cooper-everything/2024-07-04-max-cooper-everything.html" class="custom-field">Nick Cobby</a>
+</td>
+</tr>
+</tbody></table>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="10" data-categories="complexity,recursive" data-listing-date-sort="1720018800000" data-listing-file-modified-sort="1720429725129" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="4" data-listing-image-sort="/posts/2024-07-04-max-cooper-transcendental/transcendental-tree-map.jpg" data-listing-title-sort="Transcendental Tree Map" data-listing-author-sort="Max Cooper" data-listing-custom-field-sort="Martin Krzywinski &amp; Nick Cobby">
+<a href="./posts/2024-07-04-max-cooper-transcendental/2024-07-04-max-cooper-transcendental.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./posts/2024-07-04-max-cooper-transcendental/transcendental-tree-map.jpg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Transcendental Tree Map
+</h5>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+Max Cooper
+</div>
+<div class="listing-date">
+7/4/24
+</div>
+</div>
+<table class="card-other-values">
+<tbody><tr>
+<td>
+visuals
+</td>
+<td class="custom-field">
+<a href="./posts/2024-07-04-max-cooper-transcendental/2024-07-04-max-cooper-transcendental.html" class="custom-field">Martin Krzywinski &amp; Nick Cobby</a>
+</td>
+</tr>
+</tbody></table>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="11" data-categories="complexity,recursive" data-listing-date-sort="1720018800000" data-listing-file-modified-sort="1720429707513" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="4" data-listing-image-sort="/posts/2024-07-04-max-cooper-repetition/repetition.jpg" data-listing-title-sort="Repetition" data-listing-author-sort="Max Cooper" data-listing-custom-field-sort="Kevin McGlouchlin">
+<a href="./posts/2024-07-04-max-cooper-repetition/2024-07-04-max-cooper-repetition.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./posts/2024-07-04-max-cooper-repetition/repetition.jpg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Repetition
+</h5>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+Max Cooper
+</div>
+<div class="listing-date">
+7/4/24
+</div>
+</div>
+<table class="card-other-values">
+<tbody><tr>
+<td>
+visuals
+</td>
+<td class="custom-field">
+<a href="./posts/2024-07-04-max-cooper-repetition/2024-07-04-max-cooper-repetition.html" class="custom-field">Kevin McGlouchlin</a>
+</td>
+</tr>
+</tbody></table>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="12" data-categories="masking,renaissance" data-listing-date-sort="1720018800000" data-listing-file-modified-sort="1720431031126" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="4" data-listing-image-sort="/posts/2024-07-04-max-cooper-palestrina-gabriel/palestrina.jpg" data-listing-title-sort="Palestrina Gabriel" data-listing-author-sort="Max Cooper" data-listing-custom-field-sort="Uisato">
+<a href="./posts/2024-07-04-max-cooper-palestrina-gabriel/2024-07-04-max-cooper-palestrina-gabriel.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./posts/2024-07-04-max-cooper-palestrina-gabriel/palestrina.jpg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Palestrina Gabriel
+</h5>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+Max Cooper
+</div>
+<div class="listing-date">
+7/4/24
+</div>
+</div>
+<table class="card-other-values">
+<tbody><tr>
+<td>
+visuals
+</td>
+<td class="custom-field">
+<a href="./posts/2024-07-04-max-cooper-palestrina-gabriel/2024-07-04-max-cooper-palestrina-gabriel.html" class="custom-field">Uisato</a>
+</td>
+</tr>
+</tbody></table>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="13" data-categories="architecture,menger-sponge" data-listing-date-sort="1720018800000" data-listing-file-modified-sort="1720761609116" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="4" data-listing-image-sort="/posts/2024-07-04-aphex-twin-blackbox/blackbox.jpg" data-listing-title-sort="Blackbox Life Recorder 22" data-listing-author-sort="Aphex Twin" data-listing-custom-field-sort="Unknown">
+<a href="./posts/2024-07-04-aphex-twin-blackbox/2024-07-04-aphex-twin-blackbox.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./posts/2024-07-04-aphex-twin-blackbox/blackbox.jpg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Blackbox Life Recorder 22
+</h5>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+Aphex Twin
+</div>
+<div class="listing-date">
+7/4/24
+</div>
+</div>
+<table class="card-other-values">
+<tbody><tr>
+<td>
+visuals
+</td>
+<td class="custom-field">
+<a href="./posts/2024-07-04-aphex-twin-blackbox/2024-07-04-aphex-twin-blackbox.html" class="custom-field">Unknown</a>
+</td>
+</tr>
+</tbody></table>
+</div>
+</div>
+</a>
+</div>
+</div>
 <div class="listing-no-matching d-none">
 No matching items
 </div>
@@ -471,8 +684,6 @@ No matching items
 
 
 
-</section>
-</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

@@ -1,22 +1,15 @@
 ---
-title: "    "
-grid:
-# sidebar-width: 200px
-  body-width: 600px
-# margin-width: 200px
-# gutter-width: 2em
-# freeze computational output
+title: "vanishing point"
+subtitle: "algorithmic visual music"
+page-layout: full
 listing:
   id: sample-listings
   contents: posts
   sort: "date desc"
-  date-format: iso
-  type: table
+  date-format: short
+  type: grid
+  grid-columns: 4
   field-links: [image, title, author, custom-field]
-  image-align: left
-  categories: true
-  sort-ui: true
-  filter-ui: true
   fields: [image, title, author, custom-field, date]
   field-display-names:
     author: "music"
@@ -24,20 +17,14 @@ listing:
     custom-field: "visuals"
     date: "post"
     categories: "categories"
-table-hover: true
-image-lazy-loading: true
+  image-align: left
+  categories: false
+  sort-ui: true
+  filter-ui: true
+table-hover: false
+image-lazy-loading: false
 title-block-banner: false
 ---
-
-# vanishing point
-
-## algorithmic visual music
-
-{{< video https://youtu.be/D9LfNPQyzlY >}}
-
-***
-
-## archive
 
 ::: {#sample-listings}
 :::

@@ -1,0 +1,14 @@
+---
+title: "Symphony in Acid"
+author: "Max Cooper"
+custom-field: "Kwasery Komputery"
+date: "2024-07-25"
+categories: [text]
+image: "symphony-in-acid.jpg"
+---
+
+{{< video https://youtu.be/_n_iKR3Icio >}}
+
+Music: Max Cooper  
+Visuals: Kwasery Komputery
+
