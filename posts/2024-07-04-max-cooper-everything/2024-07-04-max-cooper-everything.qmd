@@ -1,8 +1,8 @@
 ---
-title: "Everything"
-author: "Max Cooper"
+title: "everything"
+author: "max cooper"
 date: "2024-07-04"
-custom-field: "Nick Cobby"
+custom-field: "nick cobby"
 categories: [face, collage]
 image: "everything.jpg"
 ---

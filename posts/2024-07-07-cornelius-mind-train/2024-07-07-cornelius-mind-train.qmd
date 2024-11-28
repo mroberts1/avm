@@ -1,7 +1,7 @@
 ---
-title: "Mind Train"
-author: "Cornelius"
-custom-field: "Keita Onishi"
+title: "mind train"
+author: "cornelius"
+custom-field: "keita onishi"
 date: "2024-07-07"
 categories: [fractal, sound-object]
 image: "mindtrain.jpg"

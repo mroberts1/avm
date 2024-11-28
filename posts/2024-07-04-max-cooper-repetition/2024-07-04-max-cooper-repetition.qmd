@@ -1,8 +1,8 @@
 ---
-title: "Repetition"
-author: "Max Cooper"
+title: "rmepetition"
+author: "max cooper"
 date: "2024-07-04"
-custom-field: "Kevin McGlouchlin"
+custom-field: "kevin mcglouchlin"
 categories: [complexity, recursive]
 image: "repetition.jpg"
 ---

@@ -1,8 +1,8 @@
 ---
-title: "Stargazer"
-author: "Hiatu"
+title: "stargazer"
+author: "hiatu"
 date: "2024-07-05"
-custom-field: "Hiatu"
+custom-field: "hiatu"
 categories: [fractal, recursive]
 image: "stargazer.jpg"
 ---

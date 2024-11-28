@@ -1,8 +1,8 @@
 ---
-title: "Skyline"
-author: "Karma Fields"
+title: "skyline"
+author: "karma fields"
 date: "2024-07-05"
-custom-field: "Raven Kwok"
+custom-field: "raven kwok"
 categories: [fractal, recursive]
 image: "karma-fields-skyline.jpg"
 ---

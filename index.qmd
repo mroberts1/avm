@@ -1,6 +1,6 @@
 ---
-title: "vanishing point"
-subtitle: "algorithmic visual music"
+title: "    "
+#subtitle: "algorithmic visual music"
 page-layout: full
 listing:
   id: sample-listings
@@ -25,6 +25,12 @@ table-hover: false
 image-lazy-loading: false
 title-block-banner: false
 ---
+
+<h6>vanishing point</h6>
+
+### algorithmic visual music
+
+<br>
 
 ::: {#sample-listings}
 :::

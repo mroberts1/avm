@@ -1,8 +1,8 @@
 ---
-title: "Palestrina Gabriel"
-author: "Max Cooper"
+title: "palestrina gabriel"
+author: "max cooper"
 date: "2024-07-04"
-custom-field: "Uisato"
+custom-field: "uisato"
 categories: [masking, renaissance]
 image: "palestrina.jpg"
 ---

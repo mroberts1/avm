@@ -1,7 +1,7 @@
 ---
-title: "See Through Me"
-author: "Hiatu"
-custom-field: "Hiatu"
+title: "see through me"
+author: "hiatu"
+custom-field: "hiatu"
 date: "2024-11-02"
 categories: [algorithmic]
 image: "hiatu-see-through-me.jpg"

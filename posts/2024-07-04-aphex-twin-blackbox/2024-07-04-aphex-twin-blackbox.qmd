@@ -1,8 +1,8 @@
 ---
-title: "Blackbox Life Recorder 22"
-author: "Aphex Twin"
+title: "blackbox life recorder 22"
+author: "aphex twin"
 date: "2024-07-04"
-custom-field: "Unknown"
+custom-field: "unknown"
 categories: [architecture, menger-sponge]
 image: "blackbox.jpg"
 ---

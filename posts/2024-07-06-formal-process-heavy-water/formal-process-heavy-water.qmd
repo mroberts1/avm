@@ -1,8 +1,8 @@
 ---
-title: "Heavy Water"
-author: "FormalProcess"
+title: "heavy water"
+author: "formalprocess"
 date: "2024-07-06"
-custom-field: "FormalProcess"
+custom-field: "formalprocess"
 categories: [kaleidoscopic, visualizer]
 image: "heavy-water.jpg"
 ---

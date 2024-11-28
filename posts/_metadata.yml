@@ -6,7 +6,8 @@ grid:
 # gutter-width: 2em
 # freeze computational output
 # (see https://quarto.org/docs/projects/code-execution.html#freeze)
-freeze: true
+execute:
+  freeze: auto
 
 # Enable banner style title blocks
 title-block-banner: false

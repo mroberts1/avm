@@ -1,8 +1,8 @@
 ---
-title: "Transcendental Tree Map"
-author: "Max Cooper"
+title: "transcendental tree map"
+author: "max cooper"
 date: "2024-07-04"
-custom-field: "Martin Krzywinski & Nick Cobby"
+custom-field: "martin krzywinski & nick cobby"
 categories: [complexity, recursive]
 image: "transcendental-tree-map.jpg"
 ---

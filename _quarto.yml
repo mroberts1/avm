@@ -2,7 +2,7 @@ project:
   type: website
 
 website:
-  title: "vp::avm"
+  title: "vanishing point"
   back-to-top-navigation: false
   navbar:
     background: transparent
