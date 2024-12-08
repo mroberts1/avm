@@ -1,5 +1,5 @@
 ---
-title: "rmepetition"
+title: "repetition"
 author: "max cooper"
 date: "2024-07-04"
 custom-field: "kevin mcglouchlin"
