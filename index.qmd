@@ -26,7 +26,7 @@ image-lazy-loading: false
 title-block-banner: false
 ---
 
-<h6>vanishing point</h6>
+<h6>dataflow</h6>
 
 ### algorithmic visual music
 
